@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/longest-common-prefix/
+# Find the longest common prefix string in an array of strings
+
 def longest_common_prefix(arr):
     lengths = [len(i) for i in arr]
     min_length = min(lengths)
